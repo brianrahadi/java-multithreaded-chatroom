@@ -7,8 +7,8 @@ A fully functional chatroom with many features built in Java. This chatroom allo
 
 ## Features
 - Fully responsive chatting app
-- Message when other user just joined or left the chatroom
-- Message who is in this chatroom for a user that just joined
+- A message about other user who just joined or left the chatroom
+- A message about who is in this chatroom when first joining the chatroom
 
 ## How to Run
 - Download Java (My java was version 15)
