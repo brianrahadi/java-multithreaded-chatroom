@@ -11,6 +11,7 @@ public class SpeakClient implements Runnable {
 	private DataOutputStream out; // pass the user input
 	private String name;
 	public static final String GREEN_TEXT = "\u001B[32m";
+	public static final String YELLOW_TEXT = "\u001B[33m";
 	public static final String RESET_TEXT = "\u001B[0m";
 
 	public SpeakClient(Scanner scanner, Socket socket, String name) {
@@ -34,7 +35,7 @@ public class SpeakClient implements Runnable {
 			String message = userIn.nextLine();
 			message = name + ": " + message;
 
-			out.writeUTF(GREEN_TEXT + message + RESET_TEXT);
+			out.writeUTF(YELLOW_TEXT + message + RESET_TEXT);
 			out.flush();
 		}
 	}

@@ -15,7 +15,7 @@ public class Client {
 	public static final String RESET_TEXT = "\u001B[0m";
 
 	public static void main(String[] args) {
-		final String publicIp = "ENTERYOURPUBLICIPADDRESSHERE"; // type your publicIp here
+		final String publicIp = "ENTERPUBLICIPADDRESSHERE"; // type your publicIp here
 		final int PORT = 3000; // type port here
 		userIn = new Scanner(System.in);
 		userOut = new PrintWriter(System.out);
@@ -42,7 +42,7 @@ public class Client {
 			Thread.sleep(1500);
 		} catch (InterruptedException e) {
 		}
-		String printedMessage = GREEN_TEXT + "\nEntering the Chatroom!\n" + usersInfo + "\n---------------------------------------------------\n\n" + RESET_TEXT;
+		String printedMessage = GREEN_TEXT + "\nEntering the Chatroom!\n" + usersInfo + "\n---------------------------------------------------\n" + RESET_TEXT;
 		System.out.println(printedMessage);
 	}
 
