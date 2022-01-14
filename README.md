@@ -13,8 +13,9 @@ A fully functional chatroom with many features built in Java. This chatroom allo
 ## How to Run
 - Download Java (My java was version 15)
 - Download this files (of course!, just to make sure :) )
+- Change the PUBLIC IP Address in Client.java line 18
 - Have the first terminal to run Server.java
-- After that, Have the second and consecutive terminal to run Client.java
+- After that, Have the second and consecutive terminal to run Client.java. Enter the username and start chatting
 - Wait for magic!
 
 ## Acknowledgements
